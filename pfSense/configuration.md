@@ -51,13 +51,11 @@ Prerequisites
 
     Console Configuration:
         After reboot, you will see a console menu. Enter option 1 to proceed.
-        For VLAN setup, choose n when asked, “Should VLANS be set up now [y
-        ]?”.
+        For VLAN setup, choose n when asked, “Should VLANS be set up now [y]?”.
         Enter the network interfaces as follows: em0, em1, em2, em3, em4, and em5 when prompted for each interface.
 
     Proceed with Configuration:
-        When asked, “Do you want to proceed [y
-        ]?”, enter y.
+        When asked, “Do you want to proceed [y]?”, enter y.
         Enter option 2 to configure the LAN interface.
 
     LAN Interface Setup:
@@ -66,13 +64,13 @@ Prerequisites
 
 ## Verification
 
-    Access pfSense WebGUI:
+  Access pfSense WebGUI:
         From your Kali Linux machine, access the pfSense WebGUI using the IP address http://192.168.1.1.
 
-    Test Network Segmentation:
+  Test Network Segmentation:
         Ensure that the network segments are properly isolated according to your configuration.
 
-    Verify Access Control:
+  Verify Access Control:
         Confirm that pfSense is reachable only from the designated Kali Linux machine.
 
 Congratulations! You have successfully set up pfSense on VirtualBox, and your firewall is configured to segment your homelab network.
