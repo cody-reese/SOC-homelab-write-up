@@ -70,9 +70,49 @@ This guide provides step-by-step instructions for installing and configuring pfS
 
 - **Complete the Installation:**
   - Upon boot, pfSense will present the initial setup screen. Accept all default settings to proceed with the installation. pfSense will automatically configure itself and reboot.
+    
+    ![image](https://github.com/user-attachments/assets/a7182236-1889-4f79-979f-e27b0e07bd61)
+    
+  - Install pfSense
+    
+    ![image](https://github.com/user-attachments/assets/1143a323-f0de-4fe4-9fd1-1a30b0275203)
+    
+  - Select Guided Root-on-ZFS
+    
+    ![image](https://github.com/user-attachments/assets/30aaaeae-ebc0-45b8-a16b-3e043c70f0a0)
+    
+  - Proceed with installation
+    
+    ![image](https://github.com/user-attachments/assets/f1b3e1b9-22e3-4b00-89a7-b76eec55b1a9)
+    
+  - We are installing pfSense on a single disk so we will select stripe and continue
+    
+    ![image](https://github.com/user-attachments/assets/779ed61b-c827-4cec-b5ca-0fc9101ceb5c)
+
+  - Press space to select ada0 and continue
+
+    ![image](https://github.com/user-attachments/assets/c40ba4d0-5a66-4642-9d7c-3dd04c480645)
+
+  - pfSense will confirm that you wish to reformat ada0. Press tab to select yes, then continue.
+
+    ![image](https://github.com/user-attachments/assets/ff7de12b-4c0c-4e97-842e-10ea1e0dee53)
+
+  - Before rebooting, we need to unmount the .iso file from VirtualBox, otherwise the installation process will be restarted when the machines reboots.
+
+    ![Screenshot 2024-08-13 191649](https://github.com/user-attachments/assets/318e9231-3dc5-4bf3-a183-24c989ed5a9b)
+
+  - Select the pfSense .iso file. VirtualBox with prompt you with a dialogue box pops up asking if you would like to eject the virtual disk select "Force Unmount"
+
+  - Reboot
+
+    ![image](https://github.com/user-attachments/assets/3c8e712a-86dd-42bf-8908-0e70db507c0f)
+
 
 - **Console Configuration:**
   - After rebooting, the console menu will appear. Select option 1 to proceed.
+
+    ![image](https://github.com/user-attachments/assets/042b7ff2-2293-4e7a-9285-b6d231bd5aef)
+
   - For VLAN configuration, respond with `n` when asked, “Should VLANs be set up now [y]?”.
   - Enter the network interfaces as follows: `em0`, `em1`, `em2`, `em3`, `em4`, and `em5` when prompted.
 
