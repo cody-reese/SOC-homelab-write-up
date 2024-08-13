@@ -1,10 +1,6 @@
-# Creating a Homelab for Network Monitoring and Security Analysis
-
-Welcome to the guide on creating a Cybersecurity Homelab focused on detection and monitoring. Due to recent updates and changes in software components, I’m unable to offer technical support for this lab at the moment. However, keep an eye out for a future, scalable version of this lab in the cloud!
-
 ## Introduction
 
-Applying cybersecurity principles can be daunting without a practical and secure environment. This homelab aims to bridge that gap by guiding you through the setup, optimization, and securing of a small-scale IT infrastructure. The skills and knowledge you gain here are directly applicable to larger, enterprise-level systems.
+Applying cybersecurity principles can be challenging without a practical and secure environment. This homelab aims to bridge that gap by guiding you through the setup, optimization, and securing of a small-scale IT infrastructure. The skills and knowledge you gain here are directly applicable to larger, enterprise-level systems.
 
 ## What is a Homelab?
 
